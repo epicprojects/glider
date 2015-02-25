@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black">
+
+  
+
+  <com.sliderparallaxpager.lib.ParallaxContainer
+      android:id="@+id/parallax_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+  
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="25dp"
+      android:gravity="center"
+      android:text="@string/title"
+      android:textColor="@android:color/white"
+      android:textSize="25sp" />
+  
+   <com.viewpagerindicator.lib.CirclePageIndicator
+        android:id="@+id/indicatorx"
+        android:padding="10dip"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        app:radius="10dp"
+        app:fillColor="#FF888888"
+        app:pageColor="#88FF0000"
+        app:strokeColor="#FF000000"
+        app:strokeWidth="2dp"
+        />
+
+</RelativeLayout>
