@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GliderSample.iml" filepath="$PROJECT_DIR$/GliderSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glidersample/glidersample.iml" filepath="$PROJECT_DIR$/glidersample/glidersample.iml" />
+    </modules>
+  </component>
+</project>
+

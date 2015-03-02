@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GliderLib.iml" filepath="$PROJECT_DIR$/GliderLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glider/glider.iml" filepath="$PROJECT_DIR$/glider/glider.iml" />
     </modules>
   </component>
 </project>

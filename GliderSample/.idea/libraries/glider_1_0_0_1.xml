@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="glider-1.0.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/glidersample/build/intermediates/exploded-aar/com.github.epicprojects.glider/glider/1.0.0.1/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/glidersample/build/intermediates/exploded-aar/com.github.epicprojects.glider/glider/1.0.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

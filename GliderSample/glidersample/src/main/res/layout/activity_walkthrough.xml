@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalkthroughActivity" >
+
+   <com.glider.ParallaxContainer
+      android:id="@+id/parallaxcontainer"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+ 
+ 
+   <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicators"
+        android:padding="@dimen/activity_vertical_margin_1x"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_1x"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        app:radius="6dp"
+        app:fillColor="@color/white"
+        app:pageColor="@android:color/transparent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp"
+        />
+   
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_rounded_corners"
+         >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="115dp"
+            android:background="@color/white_transparent"
+            android:gravity="center"
+             >
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

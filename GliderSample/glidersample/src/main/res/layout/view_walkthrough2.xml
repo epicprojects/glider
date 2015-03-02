@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/head1"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_5x"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/nodous_incubator_ic"
+            app:y_in="@dimen/parallax_speed_medium"
+            app:y_out="@dimen/parallax_speed_medium" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/nodous_network_ic"
+            app:y_in="@dimen/parallax_speed_fast"
+            app:y_out="@dimen/parallax_speed_fast" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/nodous_briefcase_ic"
+            app:y_in="@dimen/parallax_speed_slow"
+            app:y_out="@dimen/parallax_speed_slow" />
+
+    </RelativeLayout>
+  
+     <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+ android:layout_marginBottom="50dp"
+     android:gravity="center" >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:gravity="center"
+         android:text="@string/walkthrough2_discription"
+         android:textColor="@color/white"
+         android:textSize="18sp"
+         android:textStyle="normal"
+         app:x_in="@dimen/parallax_speed_slow_rev"
+         app:x_out="@dimen/parallax_speed_slow" />
+ </RelativeLayout>
+    
+    
+   <RelativeLayout
+       android:id="@+id/head1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+             android:layout_marginBottom="115dp"
+             android:gravity="center"
+             >
+      
+      <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin_4x"
+      android:layout_marginRight="@dimen/activity_horizontal_margin_4x"
+      android:textSize="26sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:gravity="center"
+      app:x_in="@dimen/parallax_speed_medium"
+      app:x_out="@dimen/parallax_speed_medium"
+      android:text="@string/walkthrough2_heading"/>
+    
+      </RelativeLayout>
+
+
+
+</RelativeLayout>

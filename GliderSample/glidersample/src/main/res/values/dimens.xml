@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_1x">8dp</dimen>
+    <dimen name="activity_vertical_margin_1x">8dp</dimen>
+    <dimen name="activity_horizontal_margin_2x">16dp</dimen>
+    <dimen name="activity_vertical_margin_2x">16dp</dimen>
+    <dimen name="activity_horizontal_margin_3x">24dp</dimen>
+    <dimen name="activity_vertical_margin_3x">24dp</dimen>
+    <dimen name="activity_horizontal_margin_4x">32dp</dimen>
+    <dimen name="activity_vertical_margin_4x">32dp</dimen>
+    <dimen name="activity_horizontal_margin_5x">40dp</dimen>
+    <dimen name="activity_vertical_margin_5x">40dp</dimen>
+    
+    <dimen name="splash_header_margin">92dp</dimen>
+    
+    
+  <item name="parallax_speed_slow" format="float" type="dimen">2.5</item>
+  <item name="parallax_speed_medium" format="float" type="dimen">5.0</item>
+  <item name="parallax_speed_fast" format="float" type="dimen">10.0</item>
+  <item name="parallax_speed_very_fast" format="float" type="dimen">20.0</item>
+
+  <item name="parallax_speed_slow_rev" format="float" type="dimen">-2.5</item>
+  <item name="parallax_speed_medium_rev" format="float" type="dimen">-5.0</item>
+  <item name="parallax_speed_fast_rev" format="float" type="dimen">-10.0</item>
+    
+    
+</resources>
